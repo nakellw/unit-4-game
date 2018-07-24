@@ -65,6 +65,7 @@ h1{
 #gameStatus{
     font-weight: bold;
     font-size: 30px;
+    color: blue;
 }
 
 #blueGem{
