@@ -13,9 +13,8 @@ var num2= Math.floor(Math.random()*11+1)
 var num3= Math.floor(Math.random()*11+1)
 var num4= Math.floor(Math.random()*11+1)
 
-// Setting up random numbers for each jewl
-// Random number to be betwen 1-12
-//
+// Setting up random numbers for each gem between 1-12
+
 
 var userTotal = 0;
 var wins = 0;
@@ -24,6 +23,8 @@ var losses = 0;
 
 $('#numberWins').text(wins);
 $('#numberLosses').text(losses);
+
+
 //resets the game
 
 function reset(){
@@ -37,17 +38,17 @@ function reset(){
     userTotal= 0;
     $('#finalTotal').text(userTotal);
 }
-//adds the wins to the userTotal
+//adds wins 
 
 function GOOD(){
-    alert("You won!");
+   $('#gameStatus').text("You win!");
     wins++;
     $('#numberWins').text(wins);
     reset();
 }
-
+//adds losses
 function BAD(){
-    alert("You lose!");
+    $('#gameStatus').text("You lose!");
     losses++;
     $('#numberLosses').text(losses);
     reset();

@@ -34,6 +34,7 @@ h1{
 #randomNumber{
     font-weight: bold;
     font-size: 30px;
+    color: red;
 }
 
 .gem{
@@ -43,45 +44,55 @@ h1{
 
 .numberToMatch{
     
-    width: 15%;
+    width: 18%;
     height: 60px;
+    
 }
 
 .winAndLosses{
   
     width: 15%;
     height: 60px;
+    
 }
 
 .userTotal{
     width: 15%;
     height: 60px;
+    
 }
 
-
+#gameStatus{
+    font-weight: bold;
+    font-size: 30px;
+}
 
 #blueGem{
-    color: #3092c7;
+   
     height:60px;
     margin:10px;
 }
 
 #greenGem{
-    color: #00aa59;
+    
     height:60px;
     margin:10px;
 }
 
 #redGem{
-    color: #ec4b5f;
+    
     height:60px;
     margin:10px;
 }
 
 #yellowGem{
-    color: #ffc225;
+   
     height:60px;
     margin:10px;
 
+}
+
+#finalTotal,#numberLosses,#numberWins{
+    color: blue;
 }
 
