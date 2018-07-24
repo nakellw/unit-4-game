@@ -1,7 +1,7 @@
 # unit-4-game
 ### Option One: CrystalsCollector Game (Recommended)
 
-<!-- ![Crystal Collector](Images/1-CrystalCollector.jpg)
+![Crystal Collector](Images/1-CrystalCollector.jpg)
 
 1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
 
@@ -32,4 +32,4 @@
 
 * The random number shown at the start of the game should be between 19 - 120.
 
-* Each crystal should have a random hidden value between 1 - 12. -->
+* Each crystal should have a random hidden value between 1 - 12.
