@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalCollectors</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <div class="header">
+        <h1>Crystal Collectors!</h1>
+    </div>
+
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystals below.By clicking on a crystal you will add a specific amount of points to your total scores.</p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above
+            the random number.</p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the values of each crystals.</p>
+
+    </div>
+
+    <div class="numberToMatch">
+            <span id="randomNumber"></span>
+    </div>
+
+    <div class="winLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+        </h2>
+        <br>
+        <h2>Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+
+    <div class="gems">
+        <img src="assets/images/redGem.png" alt="redGem" class="one" id="redGem">
+        <img src="assets/images/blueGem.png" alt="blueGem" class="two" id="blueGem">
+        <img src="assets/images/yellowGem.png" alt="yellowGem" class="three" id="yellowGem">
+        <img src="assets/images/greenGem.png" alt="greenGem" class="four" id="greenGem">
+    </div>
+
+    <div class="totalScore">
+        <h2>Your total score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+    <script type= "text/javascript" src="assets/javascript/javascript.js" ></script>
+    
+    
+
+
+</body>
+
+</html>
