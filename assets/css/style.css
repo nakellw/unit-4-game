@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/blue-crystals-explosions-1920x1080-109134.jpg);
 }
 
 div{
@@ -50,10 +50,6 @@ h1{
 .userTotal{
     width: 15%;
     height: 60px;
-}
-
-.gems{
-    clear: both;
 }
 
 
