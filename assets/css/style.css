@@ -1,12 +1,12 @@
 body {
     background-image: url(../images/blue-crystals-explosions-1920x1080-109134.jpg);
 }
-
+*{
+    box-sizing: inherit;
+}
 div{
-    background-color: white;
+    
     margin: 10px;
-    width:25%;
-    border: solid 2px antiquewhite;
     padding: 10px;
 }
 
@@ -21,13 +21,19 @@ h1{
 }
 
 .header{
-    width: 50%;
+    width: 43%;
     background-color: #ffffff;
+    margin: auto;
+    
+}
+.card-header{
+    text-align: center;
+    font-weight: bolder;
 }
 
-.instruction {
-    width: 50%;
-
+#randomNumber{
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .gem{

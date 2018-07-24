@@ -41,7 +41,7 @@ function reset(){
 
 function GOOD(){
     alert("You won!");
-    win++;
+    wins++;
     $('#numberWins').text(wins);
     reset();
 }
